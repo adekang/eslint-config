@@ -18,6 +18,6 @@
     "eslint": "^8.41.0",
     "eslint-plugin-adekang": "link:./packages/eslint-plugin-adekang",
     "rimraf": "^5.0.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
