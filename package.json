@@ -1,0 +1,23 @@
+{
+  "name": "@adekang/eslint-config-monorepo",
+  "version": "0.39.5",
+  "private": true,
+  "packageManager": "pnpm@8.5.1",
+  "author": "adekang<adekang@hotmail.com> (https://github.com/adekang/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@adekang/eslint-config": "workspace:*",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-adekang": "link:./packages/eslint-plugin-adekang",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.0.4"
+  }
+}

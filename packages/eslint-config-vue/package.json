@@ -1,0 +1,26 @@
+{
+  "name": "@adekang/eslint-config-vue",
+  "version": "0.39.5",
+  "description": "",
+  "author": "adekang<adekang@hotmail.com> (https://github.com/adekang/)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@adekang/eslint-config-basic": "workspace:*",
+    "@adekang/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.14.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  }
+}
