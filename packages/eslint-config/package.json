@@ -1,7 +1,7 @@
 {
   "name": "@adekang/eslint-config",
   "version": "0.39.9",
-  "description": "Anthony's ESLint config",
+  "description": "adekang's ESLint config",
   "author": "adekang<adekang@hotmail.com> (https://github.com/adekang/)",
   "license": "MIT",
   "homepage": "https://github.com/adekang/eslint-config",
@@ -12,6 +12,9 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },

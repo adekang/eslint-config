@@ -15,6 +15,9 @@
     "test": "vitest",
     "prepublishOnly": "pnpm build"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@typescript-eslint/utils": "^5.59.7"
   },

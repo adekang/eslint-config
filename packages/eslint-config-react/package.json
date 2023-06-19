@@ -15,6 +15,9 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
