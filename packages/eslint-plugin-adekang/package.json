@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-adekang",
-  "version": "0.39.7",
+  "version": "0.39.8",
   "license": "MIT",
   "homepage": "https://github.com/adekang/eslint-config",
   "main": "./dist/index.cjs",
