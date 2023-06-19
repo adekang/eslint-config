@@ -21,6 +21,7 @@
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.41.0"
+    "eslint": "^8.41.0",
+    "typescript": "5.0.4"
   }
 }
